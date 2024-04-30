@@ -1,0 +1,297 @@
+@media screen and (max-width: 1439px) {
+  #course {
+    padding: 40px;
+  }
+
+  #course > div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    margin: 0px 0px;
+    grid-column-gap: 70px;
+    color: #262626;
+  }
+
+  #course > div > img {
+    width: 336px;
+    height: 340px;
+    border-radius: 20px;
+  }
+
+  #curriculum {
+    display: block;
+    padding: 50px 30px;
+    height: auto;
+  }
+
+  #curriculum > div {
+    width: 100%;
+    height: auto;
+  }
+
+  #curriculum > div > div:first-child {
+    width: 50%;
+    margin: 0;
+    padding: 10px 0 20px 20px;
+  }
+
+  #curriculum > div > div:first-child h1 {
+    font-size: 35px;
+  }
+
+  #curriculum > div > div:first-child p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.9rem;
+  }
+
+  #curriculum > div > div:nth-child(2) {
+    justify-content: unset;
+  }
+
+  #curriculum > div > div:nth-child(2) > div:first-child {
+    flex: 1;
+  }
+
+  #curriculum > div > div:nth-child(2) > div:first-child li {
+    font-size: 20px;
+  }
+
+  #curriculum > div > div:nth-child(2) > div:last-child img {
+    width: 450px;
+    height: 350px;
+  }
+
+  #curriculum > div > div:last-child {
+    margin: 0;
+    padding: 50px 20px;
+  }
+
+  /* #instructor > div {
+    color: #262626;
+    margin: 80px 60px;
+  } */
+
+  #instructor > div > h1 {
+    font-size: 35px;
+  }
+
+  #instructor > div > div {
+    column-gap: 50px;
+  }
+
+  #instructor > div > div > div:first-child > img {
+    width: 400px;
+    height: 350px;
+  }
+
+  #instructor > div > div > div:last-child {
+    width: 100%;
+  }
+
+  #instructor > div > div:last-child h1 {
+    font-size: 28px;
+  }
+
+  #instructor > div > div:last-child p {
+    font-size: 18px;
+    line-height: 1.9rem;
+  }
+
+  .footer {
+    padding: 60px 100px;
+  }
+
+  .footer > div:first-child {
+    flex-wrap: wrap;
+    row-gap: 30px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  #course > div {
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+  }
+
+  #course > div > img {
+    width: 335px;
+    height: 220px;
+  }
+
+  #course > div > div div h1 {
+    padding-top: 10px;
+  }
+
+  #curriculum > div > div:first-child {
+    width: 100%;
+  }
+
+  #curriculum > div > div:nth-child(2) {
+    flex-direction: column-reverse;
+    row-gap: 10px;
+  }
+
+  #curriculum > div > div:last-child {
+    text-align: center;
+  }
+
+  #instructor > div > div > div:first-child > img {
+    width: 360px;
+    height: 320px;
+  }
+
+  .footer {
+    padding: 60px;
+  }
+
+  .footer > div:first-child {
+    row-gap: 40px;
+    column-gap: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  header > div {
+    padding: 0 25px;
+    justify-content: space-between;
+  }
+
+  header > div div:first-child {
+    flex: 0;
+  }
+
+  header > div nav,
+  header .signup-div {
+    display: none;
+  }
+
+  header .tgl-div {
+    display: block;
+    flex: 0;
+  }
+
+  header .tgl-div button {
+    background-color: #14121d;
+    border: none;
+  }
+
+  header .tgl-div button i {
+    font-size: 25px;
+  }
+
+  #banner {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    line-height: 3.6rem;
+  }
+
+  #banner > div p:first-child {
+    font-size: 5vh;
+    padding: 0 10px;
+  }
+
+  #banner > div p:nth-of-type(2) {
+    font-size: 3vh;
+    padding: 0 5px;
+    line-height: 2.6rem;
+  }
+
+  #banner > div > div > button {
+    font-size: 17px;
+    padding: 14px 28px;
+  }
+
+  #curriculum > div > div:first-child {
+    width: 88%;
+  }
+
+  #curriculum > div > div:nth-child(2) > div:first-child {
+    line-height: 2.4rem;
+  }
+
+  #curriculum > div > div:nth-child(2) > div:first-child > h1 {
+    font-size: 20px;
+  }
+
+  #curriculum > div > div:nth-child(2) > div:first-child li {
+    font-size: 16px;
+  }
+
+  #curriculum > div > div:nth-child(2) > div:last-child img {
+    width: 300px;
+    height: 260px;
+  }
+
+  #curriculum > div > div:last-child {
+    padding: 30px 20px;
+  }
+
+  #instructor > div > div {
+    column-gap: 0;
+    flex-direction: column;
+    row-gap: 15px;
+  }
+
+  #instructor > div > h1 {
+    font-size: 31px;
+  }
+
+  #instructor > div > div > div:first-child > img {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  #banner > div p:first-child {
+    font-size: 5vh;
+    padding: 0 10px;
+  }
+
+  #banner > div p:nth-of-type(2) {
+    font-size: 3vh;
+    padding: 0 5px;
+    line-height: 2.6rem;
+  }
+
+  #banner > div > div > button {
+    font-size: 17px;
+    padding: 14px 28px;
+  }
+
+  #course > div > img {
+    width: 300px;
+    height: 220px;
+  }
+
+  #course > div > div div h1 {
+    font-size: 5vh;
+  }
+
+  #course > div > div div p {
+    font-size: 3vh;
+  }
+
+  #curriculum > div > div:nth-child(2) > div:last-child img {
+    width: 280px;
+    height: 250px;
+  }
+
+  #curriculum > div > div:last-child button {
+    font-size: 20px;
+  }
+
+  #instructor > div > h1 {
+    font-size: 26px;
+  }
+
+  .footer {
+    padding: 40px;
+  }
+
+  .footer > div > div:first-child {
+    flex-basis: 100%;
+  }
+}
